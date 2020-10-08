@@ -1,0 +1,4 @@
+1. Verify the login Button's Color in Actitime
+2. Verify whether "Please identify yourself" is a Normal Text in Actitime
+3. verify the ErrorMessge Color in Actitime 
+4. Take the error message screenshot/Login Panel Screenshot

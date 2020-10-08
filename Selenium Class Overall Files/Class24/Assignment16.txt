@@ -1,0 +1,5 @@
+1. OPen Calulator and press the button 9 5 times
+
+2. OPen Calulator and Add 5 + 4 and show the result of addition and verify whether result is correct or not
+
+ 

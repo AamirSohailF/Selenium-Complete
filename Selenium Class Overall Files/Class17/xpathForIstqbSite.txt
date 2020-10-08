@@ -1,0 +1,18 @@
+<a href="/certification-path-root/why-istqb-certification.html" data-toggle="dropdown" data-target="#">Certification<em class="caret"></em></a>
+
+<a class=" dropdown-toggle" href="/certification-path-root/why-istqb-certification.html" data-target="#" data-toggle="dropdown">Certification<em class="caret"></em></a>
+
+
+//a[@class=' dropdown-toggle' and text()='Certification']
+
+//a[@class=' dropdown-toggle' and text()='Certification']/..
+
+
+
+<a href="/certification-path-root/expert-level.html">Expert Level </a>
+
+<a class="" href="/certification-path-root/expert-level.html" data-target="#">Expert Level </a>
+
+
+//a[@class=' dropdown-toggle' and text()='Certification']/..//a[.='Expert Level ']
+

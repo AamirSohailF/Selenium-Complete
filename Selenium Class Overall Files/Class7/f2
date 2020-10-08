@@ -1,0 +1,11 @@
+<td data-label="Language">Java</td>
+
+//td[text()='Java']
+
+//td[text()='Java']/..
+
+<td data-label="Stable Version">3.141.59</td>
+
+//td[@data-label='Stable Version']
+
+//td[text()='Java']/..//td[@data-label='Stable Version'] ==>Selenium.dev site

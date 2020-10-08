@@ -1,0 +1,1 @@
+Write a generic method which should give all the value of the property value

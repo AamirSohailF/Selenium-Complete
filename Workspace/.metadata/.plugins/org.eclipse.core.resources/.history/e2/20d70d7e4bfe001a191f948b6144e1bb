@@ -1,0 +1,9 @@
+package com.alphabet.gmail.testngtopic;
+
+public class TC001 {
+
+	public void testValidLogin() {
+		System.out.println("Running testValidLogin Method");
+	}
+	
+}

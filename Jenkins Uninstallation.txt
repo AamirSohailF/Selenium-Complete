@@ -1,0 +1,10 @@
+Uninstall Jenkins from Add/Remove Programs.
+
+To delete buffered data ::::::-----------------------------------------------------------------
+After uninstalling it go to C:\Program Files and Shift+delete Jenkins to delete buffered data
+Then go to C:\Windows\System32\config\systemprofile and Shift+delete .jenkins
+Now go to C:\Windows\System32\config\systemprofile\AppData\Local and Shift+delete Jenkins.jenkins and also Jenkinswar
+
+::::::::::-------------------------------------------------------------------------------------
+
+All the data of Jenkins is now cleared and is ready for fresh installation

@@ -1,0 +1,4 @@
+1. Verify Whether the Sent email is available in Sent Items.
+2. Go to the Chrome Browser and slect Youtube from Google Apps Menu and verify youtube Page title.
+3. Select the Months of Facebook Month List Box except the default text 'Month'
+4. Select the DOB in Facebook Web Page

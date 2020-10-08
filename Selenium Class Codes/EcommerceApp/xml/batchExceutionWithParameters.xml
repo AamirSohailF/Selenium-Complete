@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="ChromeTest">
+  	<parameter name="appUrl" value="http://automationpractice.com/"></parameter>
+  	<parameter name="browser" value="firefox"></parameter>
+  	<parameter name="implicit" value="20"></parameter>
+  	<parameter name="explicit" value="20"></parameter>
+  	<parameter name="un" value="nameishemanth@rediffmail.com"></parameter>
+  	<parameter name="pwd" value="Testing@123"></parameter>
+    <classes>
+      <class name="scripts.TC001"/>
+      <!-- <class name="scripts.TC002"/>
+      <class name="scripts.TC005"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

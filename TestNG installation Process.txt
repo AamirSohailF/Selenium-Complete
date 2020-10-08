@@ -1,0 +1,9 @@
+Go to Help in Eclipse
+Help -> Install New Software
+Then paste ( https://dl.bintray.com/testng-team/testng-eclipse-release/7.3.0/ ) in Work With TextField and then paste Enter
+And then follow the installation steps. When prompted hit "Install Anyway"
+To import TestNG to a project right click on the main project then go to Build Path and then Add Libraries
+Main Project Folder (Right Click) -> Build Path -> Add Libraries
+Inside Add Libraries click TestNG and then click Next.
+
+TestNG is imported for the project.

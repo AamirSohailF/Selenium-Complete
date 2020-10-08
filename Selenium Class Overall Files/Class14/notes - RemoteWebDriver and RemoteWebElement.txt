@@ -1,0 +1,12 @@
+1. There are two implementations of findElement and findElements
+2. There are two implementations of findElement and findElements in RemoteWebDriver and RemoteWebElement
+3. RemoteWebDriver Implementation is to Identify Parent Element/Elements
+4. RemoteWebElement Implementation is to Identify Child Element/Elements ==> Element of Element 
+5. driver.findElement() ==> RemoteWebDriver Implementation
+6. driver.findElement() ==> RemoteWebElement is the return Type
+
+
+
+7. driver.findElement().click()
+	driver.findElement().findElement()
+8. driver.findElement() is giving new Object RemoteWebElement

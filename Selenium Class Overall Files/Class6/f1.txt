@@ -1,0 +1,22 @@
+<input type="text" name="username" value="" id="username" class="textField" placeholder="Username">
+
+<button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" name="login" data-testid="royal_login_button" type="submit" id="u_0_b">Log In</button>
+
+//button[@data-testid='royal_login_button']
+
+
+<div>Login </div>
+
+<td id="headerContainer" class="header">Please identify yourself</td>
+
+//td[text()='Please identify yourself']
+//td[.='Please identify yourself']
+
+<a href="https://www.facebook.com/recover/initiate/?ars=facebook_login">Forgotten account?</a>
+
+
+//a[text()='Forgotten account?']
+
+//a[.='Forgotten account?']
+
+

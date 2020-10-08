@@ -1,0 +1,4 @@
+1. Write a Script to Sroll Left and Scroll Right Using Javascript Executor method
+2. Write a Script to Scroll to Top of the webPage Using JavaScript Executor
+3. WAS to Clear the data from the text field w/o clear/SendKeys method.
+	Site:: https://demo.vtiger.com/vtigercrm/

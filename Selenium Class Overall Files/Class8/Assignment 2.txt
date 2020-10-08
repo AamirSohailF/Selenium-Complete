@@ -1,0 +1,3 @@
+1. Write xpath to identify python Download in Selenium dev website
+2. Write xpath to get the release date of c#
+3. Write login script by verifying the url of the HomePage

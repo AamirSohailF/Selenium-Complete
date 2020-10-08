@@ -1,0 +1,10 @@
+1. Go to Vtiger Application and verify whether the text box is empty or not. if the textbox is not empty print the value and later clear the value and type "mohan"
+https://demo.vtiger.com/vtigercrm/
+
+2. Verify whether the tool tip text of Actitime Checkbox is correct or not
+
+3. Verify whether the alternative text for the Image is correct or not in in Flipkart welcome page
+
+4. Verify whether the right alignment of the username and password text fields are correct
+
+5. Verify whether the all the alignment of username and password text field is correct or not

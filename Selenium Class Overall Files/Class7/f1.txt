@@ -1,0 +1,13 @@
+<td>Java</td>
+<td id="cost">500</td>
+
+
+//td[text()='Java']
+
+//td[text()='Java']/..
+
+//td[@id='cost']
+
+//td[text()='Java']/..//td[@id='cost'] ==> index.html
+
+//td[text()='Java']/../td[2] ==> index2.html

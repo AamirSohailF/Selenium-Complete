@@ -1,0 +1,10 @@
+Local $sTitle="Open"
+WinWaitActive($sTitle)
+Sleep(5000)
+ControlClick($sTitle,"","SysTreeView321","left",1,165,457)
+Sleep(5000)
+MouseClickDrag("left",1095,253,1095,542)
+Sleep(5000)
+ControlClick($sTitle,"","[CLASS:DirectUIHWND; INSTANCE:2]","left",1,330,520)
+Sleep(5000)
+ControlClick($sTitle,"","Button1")

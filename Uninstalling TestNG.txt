@@ -1,0 +1,12 @@
+First of all remove TestNG from the project by right clicking on the project
+Then go to Build Path and then click Remove Build Path
+Project (Right Click) -> Build Path -> Remove Build Path
+
+To uninstall TestNG from Eclipse go to Window then Click Preferences and click on Install/Update
+Window -> Preferences -> Install/Update
+
+Now click on the "Uninstall or update" link
+
+Type TestNG in the searchBox and select all of the TestNG results.
+Click Uninstall and follow the process further.
+TestNG will be uninstalled from Eclipse.

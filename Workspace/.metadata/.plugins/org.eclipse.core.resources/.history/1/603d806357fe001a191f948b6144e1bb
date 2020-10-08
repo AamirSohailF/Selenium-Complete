@@ -1,0 +1,23 @@
+package com.alphabet.gmail.testngtopic;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class TC007 {
+
+	@Test(priority=3)
+	public void t1() {
+		Reporter.log("Running t1 Method", true);
+	}
+	
+	@Test(priority=1)
+	public void t2() {
+		Reporter.log("Running t2 Method", true);
+	}
+	
+	@Test(priority=2)
+	public void t3() {
+		Reporter.log("Running t3 Method", true);
+	}
+	
+}

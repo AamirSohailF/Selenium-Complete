@@ -1,0 +1,1 @@
+1. Run the Script HandlingListboxInNaukri.java on Firefox Browser and fix the issue if avalibale

@@ -1,0 +1,11 @@
+package com.alphabet.gmail.testngtopic;
+
+public class TC022 {		//		Soft Assert
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+}

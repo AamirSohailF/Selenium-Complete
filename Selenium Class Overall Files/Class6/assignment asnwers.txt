@@ -1,0 +1,85 @@
+Q1. Write Xpath for Login Button in Actitime
+A. --------------- XPath Using text --------------- 
+   //div[text()='Login ']
+   //div[.='Login ']
+
+   --------------- XPath Using contains --------------- 
+   //div[contains(text(),'Login ')]
+   //div[contains(.,'Login ')]
+
+Q.2 same as Q.3
+
+
+Q.3 Write Xpath for Keep Me Logged In
+A. --------------- XPath Using Attribute --------------- 
+   //input[@type='checkbox']
+   //input[@name='remember']
+   //input[@value='on']
+   //input[@id='keepLoggedInCheckBox']
+   //input[@title='Do not select if this computer is shared']
+
+
+   --------------- XPath Using contains --------------- 
+
+   //input[contains(@type,'checkbox')]
+   //input[contains(@name,'remember')]
+   //input[contains(@value,'on')]
+   //input[contains(@id,'keepLoggedInCheckBox')]
+   //input[contains(@title,'Do not select if this computer is shared')]
+
+
+
+
+
+Q.4 Write Xpath for Image in Google
+A. --------------- XPath Using Attribute --------------- 
+   //img[@alt='Google']
+   //img[@height='92']
+   //img[@id='hplogo']
+   //img[@src='/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png']
+   //img[@srcset='/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, /images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x']
+   //img[@style='padding-top:109px']
+   //img[@width='272']
+   //img[@data-atf='1']
+
+   --------------- XPath Using contains --------------- 
+   //img[contains(@alt,'Google')]
+   //img[contains(@height,'92')]
+   //img[contains(@id,'hplogo')]
+   //img[contains(@src,'/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png')]
+   //img[contains(@srcset,'/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, /images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x')]
+   //img[contains(@style,'padding-top:109px')]
+   //img[contains(@width,'272')]
+   //img[contains(@data-atf,'1')]
+
+
+Meaning for the below Xpaths
+=============================
+
+
+Q. //input[@type='checkbox']
+A. Under all the input tags of the webpage everything with type (AttributeName) equal to 'checkbox' (AttributeValue) will be selected.
+
+
+Q. //input[@type='button']
+A. Under all the input tags of the webpage everything with type (AttributeName) equal to 'button' (AttributeValue) will be selected.
+
+
+Q. //input[@type='text']
+A. Under all the input tags of the webpage everything with type (AttributeName) equal to 'text' (AttributeValue) will be selected.
+
+
+Q. //input[@type='radio']
+A. Under all the input tags of the webpage everything with type (AttributeName) equal to 'radio' (AttributeValue) will be selected.
+
+
+Q. //input[@type='radio'] | //input[@type='button']
+A. Under all the input tags of the webpage everything with type (AttributeName) equal to 'radio' (AttributeValue) will be selected
+   ---------------------------------------------- OR ---------------------------------------------- 
+   Under all the input tags of the webpage everything with type (AttributeName) equal to 'button' (AttributeValue) will be selected.
+
+
+Q. //input[@type='text' or @type='button']
+A. Under all the input tags of the webpage everything with type (AttributeName) equal to 'text' (AttributeValue) will be selected
+   ---------------------------------------------- OR ---------------------------------------------- 
+   Under all the input tags of the webpage everything with type (AttributeName) equal to 'button' (AttributeValue) will be selected.

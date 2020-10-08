@@ -1,0 +1,17 @@
+1. Write xpath to identify python Download in Selenium dev website
+A. //td[text()='Python']/..//td[@data-label='Links']//a[text()='Download']
+   //td[.='Python']/..//td[@data-label='Links']//a[.='Download']
+   //td[.='Python']/..//td[@data-label='Links']//a[.='Download']
+   //td[contains(.,'Python')]/..//td[contains(@data-label,'Links')]//a[contains(.,'Download')]
+   //td[contains(.,'Python')]/..//td[contains(@data-label,'Links')]//a[contains(@href,'http://pypi.python.org/pypi/selenium')]
+
+2. Write xpath to get the release date of c#
+A. //td[text()='C#']
+   //td[.='C#']
+   //td[contains(text(),'C#')]
+   //td[contains(.,'C#')]
+   //td[contains(@data-label,'Language')]
+
+
+3. Write login script by verifying the url of the HomePage of Actitime
+A. In attached Java file

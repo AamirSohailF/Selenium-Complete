@@ -1,0 +1,17 @@
+nameishemanth@gmail.com
+
+https://demo.actitime.com/
+1. Write Xpath for Login Button in Actitime
+2. Write Xpath for Remember checkbox
+3. Write Xpath for Keep Me Logged In
+4. Write Xpath for Image in Google
+
+
+Meaning for the below Xpaths
+=============================
+1. //input[@type='checkbox']
+2. //input[@type='button']
+3. //input[@type='text']
+4. //input[@type='radio']
+5. //input[@type='radio'] | //input[@type='button']
+6. //input[@type='text' or @type='button']

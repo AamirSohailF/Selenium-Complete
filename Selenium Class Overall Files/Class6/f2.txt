@@ -1,0 +1,15 @@
+<a href="https://www.facebook.com/recover/initiate/?ars=facebook_login">Forgotten account?</a>
+
+//a[contains(text(),'account')]
+
+<nobr>actiTIME 2020 Online</nobr>
+
+//nobr[contains(.,'actiTIME')]
+
+
+Syntax 1
+=========
+<a href="http://www.actitime.com" target="_blank">actiTIME Inc.</a>
+
+//a[contains(@href,'actitime')]
+

@@ -1,0 +1,3 @@
+1. Right click on a specific location (x and y cordinate) of a webpage using Actions Class
+2. Right Click on the "Automated TestCases" cars and click on Edit Labels and verify whether Edit Labels is displayed or not
+3. What is Exception thrown if other keys are used for keyDown Method of actions Class

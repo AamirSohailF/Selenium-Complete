@@ -1,0 +1,11 @@
+<a class="product_img_link" href="http://automationpractice.com/index.php?id_product=3&amp;controller=product" title="Printed Dress" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://automationpractice.com/img/p/8/8-home_default.jpg" alt="Printed Dress" title="Printed Dress" width="250" height="250" itemprop="image">
+						</a>
+						
+						
+//a[contains(@href,'id_product=3')]
+
+//a[@class='product_img_link' and contains(@href,'id_product=3')]
+
+//a[@class='product_img_link']
+

@@ -1,0 +1,9 @@
+<div class="_3wU53n">Realme C3 (Volcano Grey, 32 GB)</div>
+
+//div[text()='Realme C3 (Volcano Grey, 32 GB)']
+
+<div class="_1vC4OE _2rQ-NK">₹8,999</div>
+
+//div[@class='_1vC4OE _2rQ-NK']
+
+//div[text()='Realme C3 (Volcano Grey, 32 GB)']/../..//div[@class='_1vC4OE _2rQ-NK']

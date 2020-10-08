@@ -1,0 +1,8 @@
+WAS to Verify Whether the Google Logo/image is Visibile or not in Google WebSite/anywebsite
+A.  wait.until(ExpectedConditions.isvisble("   //td[contains(@data-label,'Language')]")
+    wait.until(ExpectedConditions.isvisible("//img[contains(@height,'92')]")
+    wait.until(ExpectedConditions.isvisible("//img[contains(@src,'/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png')]")
+    wait.until(ExpectedConditions.isvisible("//img[contains(@srcset,'/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, /images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x')]")
+    wait.until(ExpectedConditions.isvisible("//img[contains(@width,'272')]")
+    wait.until(ExpectedConditions.isvisible("//img[contains(@data-iml,'1598269702429')]")
+    wait.until(ExpectedConditions.isvisible("//img[contains(@data-atf,'1')]")

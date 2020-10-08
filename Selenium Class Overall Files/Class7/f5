@@ -1,0 +1,6 @@
+<a class="product-name" href="http://automationpractice.com/index.php?id_product=3&amp;controller=product" title="Printed Dress" itemprop="url">
+							Printed Dress
+						</a>
+						
+						
+//a[@class='product_img_link' and contains(@href,'id_product=3')]

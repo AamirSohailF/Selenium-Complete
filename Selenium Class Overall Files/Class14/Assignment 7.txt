@@ -1,0 +1,4 @@
+1. Print Only The Numbers of the Table Data and Total Count of The All the Numbers
+2. Print only the Text of tha Table Data and then print Count of Text in the Table
+3. Print the Count and the Name of all the Radio Buttons in Facebook
+4. Print the Count and the Name of all the Buttons in Facebook

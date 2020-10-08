@@ -1,0 +1,7 @@
+1. WAS to verify whether the alert pop up is displayed when invalid email id format is provided in the email text field of contact form in below website
+	http://www.marimallappawomenscollege.org/contactus.php?current=contactus
+	
+2. WAS to verify if the url doesnt change when user clicks on Cancel Button in the COnfirmation Popup of below Website
+	https://www.licindia.in/Home-(1)/LICOnlineServicePortal
+	
+3. Try to avoid mySleepInSeconds(10) by using Explicit wait in HandlingHiddenDivisionPopup.java Program
