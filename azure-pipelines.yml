@@ -1,0 +1,27 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- task: Leapwork@4
+  inputs:
+    leapworkHostname: '127.0.0.1'
+    leapworkPort: '9001'
+    leapworkAccessKey: '12345'
+    leapworkDoneStatusAs: 'Failed'
+    leapworkReport: 'report.xml'
+    leapworkSchids: '8f1e7f07-b310-471f-b8fc-c1f43e7fc275'
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
